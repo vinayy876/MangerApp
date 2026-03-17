@@ -1,0 +1,114 @@
+.expense-manager-container 
+{
+  max-width: 1100px;
+  margin: auto;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  background: #f4f7fb;
+}
+.header h1 
+{
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+.form-container 
+{
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+.form-row 
+{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+label 
+{
+  font-weight: 600;
+  width: 80px;
+}
+input, select 
+{
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  transition: 0.3s ease;
+}
+input:focus, select:focus 
+{
+  border-color: #6a5acd;
+  background: #fff;
+}
+.add-button 
+{
+  width: 100%;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.add-button:hover 
+{
+  background: #5a4ac4;
+}
+.expense-table-container table 
+{
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+thead 
+{
+  background: #6a5acd;
+  color: white;
+}
+th, td 
+{
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ececec;
+}
+tr:hover 
+{
+  background: #f0f0ff;
+}
+.edit-buttons button 
+{
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 4px;
+  font-size: 18px;
+}
+.edit-btn 
+{
+  background: #ffd966;
+}
+.edit-btn:hover 
+{
+  background: #ffcc33;
+}
+.delete-btn 
+{
+  background: #ff8a8a;
+}
+.delete-btn:hover 
+{
+  background: #ff4e4e;
+}
